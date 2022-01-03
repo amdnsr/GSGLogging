@@ -17,8 +17,8 @@
         }
     },
     "mongo_details": {
-        "MONGO_HOST": null,
-        "MONGO_PORT": null,
+        "MONGO_HOST": "localhost",
+        "MONGO_PORT": 27017,
         "MONGO_URI": null,
         "MONGO_ENV": null,
         "MONGO_USERNAME": null,
