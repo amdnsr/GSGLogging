@@ -30,4 +30,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"],
 
 
 if __name__ == "__main__":
+    rabbitmq_consumer_thread = Thread(
+        target=RabbitMQEventHandler.start_consumer, args=())
+    rabbitmq_consumer_thread.start()
     uvicorn.run("main:app", host=HOST, port=PORT, reload=RELOAD, debug=DEBUG)
