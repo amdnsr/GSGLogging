@@ -25,11 +25,11 @@
         "MONGO_PASSWORD": null
     },
     "rabbitmq_details": {
-        "rabbitmq_username": null,
-        "rabbitmq_password": null,
-        "rabbitmq_host": null,
-        "rabbitmq_port": null,
-        "rabbitmq_virtual_host": null,
+        "rabbitmq_username": "guest",
+        "rabbitmq_password": "guest",
+        "rabbitmq_host": "localhost",
+        "rabbitmq_port": 15672,
+        "rabbitmq_virtual_host": "/",
         "rabbitmq_exchange": null,
         "rabbitmq_exchange_type": null,
         "rabbitmq_consumer_queue": null
